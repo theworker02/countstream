@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/countstream",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Count URLs and stream query parts with stable normalization.",
+  "bin": {
+    "countstream": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/countstream.git"
+  },
+  "homepage": "https://theworker02.github.io/countstream/",
+  "keywords": [
+    "count",
+    "stream",
+    "url",
+    "cli",
+    "toolkit"
+  ]
+}
